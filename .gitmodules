@@ -1,0 +1,3 @@
+[submodule "Mern-DropKart-Backend"]
+	path = Mern-DropKart-Backend
+	url = https://github.com/Abhikgupta101/Mern-DropKart-Backend

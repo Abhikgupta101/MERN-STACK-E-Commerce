@@ -1,0 +1,410 @@
+* {
+    overflow-x: hidden;
+}
+
+.body {
+    height: 100vh;
+    width: 100%;
+}
+
+.loader {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.77);
+    top: 0vh;
+    left: 0;
+    overflow: hidden;
+}
+
+/* SIGNUP CSS */
+
+.signup_main {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    overflow-y: hidden;
+}
+
+.signup_cont {
+    display: flex;
+    flex-direction: column;
+    width: 28rem;
+    height: 33rem;
+    overflow-y: hidden;
+}
+
+.signup_input {
+    width: 100%;
+    height: 5vh;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 5%;
+    outline: none;
+
+}
+
+.signup_file {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.signup_file_lable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.325);
+    margin-bottom: 5%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    height: 5vh;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.325);
+    cursor: pointer;
+}
+
+
+
+/* NAVBAR CSS */
+
+.nav_container {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    z-index: 10;
+    color: white
+}
+
+.nav_logo {
+    height: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.nav_links {
+    display: flex;
+    flex: 1;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.subnav_container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 51, 0, 0.418);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    margin-top: 10vh;
+    align-items: center;
+    width: 50%;
+    height: 5vh;
+    cursor: pointer;
+    color: white
+}
+
+.search_bar {
+    height: 7vh;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_input {
+    height: 60%;
+    text-indent: 5px;
+    width: 90%;
+    outline: none;
+    background-color: rgb(221, 227, 225);
+    border: 0px;
+    border-radius: 2px;
+}
+
+
+
+.filter_cont {
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.352);
+    display: flex;
+    flex-direction: column;
+}
+
+.filter {
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+}
+
+.filter p {
+    font-weight: 500;
+}
+
+/*------------------HOME------------------------- */
+.home {
+    display: flex;
+    margin-top: 10vh;
+    width: 100%;
+}
+
+/* ------------------USERS------------------------- */
+
+/*----------- FEED CSS--------------------- */
+
+.feed_singlepost {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15vh;
+    width: 75%;
+    height: 100%;
+    /* background-color: black; */
+}
+
+/*----------- UPLOAD CSS--------------------- */
+
+.upload_cont {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 10vh;
+    margin-top: 10vh;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------SinglePost CSS---------------- */
+
+.singlepost_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 30rem;
+    margin: 1%;
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+}
+
+.singlepost_img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    overflow-y: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.singlepost_footer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 30%;
+    justify-content: space-evenly;
+}
+
+
+/* CART CSS */
+
+.checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+    align-items: center;
+    color: white;
+}
+
+.checkout div {
+    background-color: black;
+    height: 100%;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: rgba(255, 255, 255, 0.774);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.cart_cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 20vh;
+}
+
+.cart_info {
+    height: 100%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cart_counters {
+    height: 100%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cart_delete {
+    height: 100%;
+    display: flex;
+    flex: 0.3;
+    align-items: center;
+    justify-content: center;
+}
+
+/* PRODUCT CSS */
+
+.product_cont {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 11vh;
+    width: 90vw;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.product_img {
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    overflow-y: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+}
+
+.product_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+    height: 70vh;
+    margin-left: 1%;
+}
+
+.prod_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 11vh;
+    width: 90vw;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.prod_cont_img {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    height: 50vh;
+}
+
+.prod_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px;
+    justify-content: space-between;
+    width: 100%;
+    height: 30vh;
+}
+
+.prod_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    height: 5vh;
+}
+
+.prod_reviews {
+    margin-top: 1vh;
+    width: 100%;
+    height: 30vh;
+    overflow-y: scroll;
+    background-color: rgba(0, 49, 60, 0.79);
+}
+
+.messageform_cont {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    overflow: hidden;
+}
+
+
+/* ----------------RESPNSIVE/MEDIA QUERIES------------------------- */
+
+@media(max-width: 400px) {
+
+    * {
+        font-size: 10px;
+    }
+
+}
+
+@media(max-width: 700px) {
+
+    .signup_cont {
+        width: 80%;
+        height: 60%;
+    }
+
+}
